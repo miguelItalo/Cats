@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/css/style.css">
+  <title>Cats</title>
+</head>
+<body>
+  <header>
+    <img src="/assets/img/cat.png" class="logo" alt="logo">
+    <ul>
+      <li><a href="#">LOGIN</a></li>
+      <li><a href="#">REGISTRAR</a></li>
+    </ul>
+  </header>
+
+  <main>
+    {{{body}}}
+  </main>
+
+  <section class="modal-cadastro">
+    <h1>Cadastre-se</h1>
+    <form action="/register" method="post">
+      <div class="form-control">
+        <label for="name">Usuário:</label>
+        <input type="text" name="name">
+      </div>
+
+      <div class="form-control">
+        <label for="email">Email:</label>
+        <input type="email" name="email">
+      </div>
+
+      <div class="form-control">
+        <label for="password">Senha:</label>
+        <input type="password" name="password">
+      </div>
+
+      <div class="form-control">
+        <label for="confirmpassword">Repita a senha:</label>
+        <input type="password" name="confirmpassword">
+      </div>
+    </form>
+  </section>
+
+  <footer>
+    <p>Todos os direitos reservados</p>
+  </footer>
+</body>
+</html>
